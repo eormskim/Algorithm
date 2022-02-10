@@ -2,7 +2,7 @@ package Programmers;
 
 import java.util.HashMap;
 
-public class solution1 {
+public class Solution1 {
     public static void main(String[] args){
         //완주하지 못한 선수
         String participant0[] = {"leo", "kiki", "eden"};

@@ -1,6 +1,6 @@
 package Sixshop;
 
-public class solution2 {
+public class Solution2 {
     public static void main(String[] args){
         //식스샵 2번문제
         int[] grade1 = {2,2,1}; //113

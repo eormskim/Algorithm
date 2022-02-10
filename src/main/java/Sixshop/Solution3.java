@@ -1,6 +1,6 @@
 package Sixshop;
 
-public class solution3 {
+public class Solution3 {
     public static void main(String[] args){
         //식스샵 3번
         System.out.println(solution3(15));

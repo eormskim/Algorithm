@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class solution2 {
+public class Solution2 {
     public static void main(String[] args) {
         //프로그래머스 해시 전화번호 목록
         String[] phone_book1 = {"119", "97674223", "1195524421"};//false

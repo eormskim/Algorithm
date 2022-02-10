@@ -1,6 +1,6 @@
 package Sixshop;
 
-public class solution1 {
+public class Solution1 {
     public static void main(String[] args){
         //식스샵 1번문제
         System.out.println(solution1("xyZA", "ABCxy"));

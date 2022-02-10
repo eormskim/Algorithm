@@ -1,13 +1,11 @@
 package Programmers;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 import static java.util.stream.Collectors.*;
 import static java.util.stream.Collectors.reducing;
 
-public class solution3 {
+public class Solution3 {
     public static void main(String[] args) {
         //프로그래머스 해시 위장
         String[][] clothes1 = {{"yellow_hat","headgear"},{"blue_sunglasses","eyewear"},{"green_turban","headgear"}}; //5
