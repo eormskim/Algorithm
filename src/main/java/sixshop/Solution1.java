@@ -1,4 +1,4 @@
-package Sixshop;
+package sixshop;
 
 public class Solution1 {
     public static void main(String[] args){

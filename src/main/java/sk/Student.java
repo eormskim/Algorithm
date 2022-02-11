@@ -1,4 +1,4 @@
-package SK;
+package sk;
 
 import java.util.ArrayList;
 import java.util.List;

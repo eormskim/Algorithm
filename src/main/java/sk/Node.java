@@ -1,4 +1,4 @@
-package SK;
+package sk;
 
 public class Node {
 
