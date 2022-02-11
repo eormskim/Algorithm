@@ -41,7 +41,7 @@ public class CollectionTest {
 
 
 
-        list = new ArrayList<>(Arrays.asList("a","bb","ccccccc","d","eee","ff","ggggggg"));
+        list = new ArrayList<>(Arrays.asList("a","bb","ccccccc","d","eee","ff","ggggggg","aaa","･"));
         Map<Integer, Set<String>> result6 = list.stream()
                 .collect(groupingBy(String::length, toSet()));
         System.out.println(result6);
@@ -67,7 +67,13 @@ public class CollectionTest {
             System.out.println("max="+max); // optional[data]
         }
 
-        
+        Optional<String> firstElement = list.stream()
+                .filter(s -> s.startsWith("aa")).findFirst();
+        System.out.println(firstElement.orElse("empty Optional"));
+
+        Optional<String> anyElement = list.stream()
+                .filter(s -> s.startsWith("a")).findAny();
+        System.out.println(anyElement.orElse("empty Optional"));
 
 
 
