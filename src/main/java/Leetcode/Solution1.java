@@ -22,12 +22,9 @@ public class Solution1 {
 
             IntStream list = Arrays.stream(nums);
 
-/*            Integer[] result = list.map(x -> x+x).boxed().toArray(Integer[]::new);
-            Optional<Integer> result2 = list.collect(Collectors.summarizingInt(Arrays.stream(result).count()::new));
-            System.out.println(result2.orElse(0));
-            for(Integer n: result){
-                System.out.println(n);
-            }*/
+            Integer[] result = list.boxed().toArray(Integer[]::new);
+
+
 
 
 
